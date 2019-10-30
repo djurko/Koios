@@ -1,0 +1,30 @@
+<!-- <p>settlement-details works!</p> -->
+
+<div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/settlements']"><mat-icon>list</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><h2>Settlement Name: {{settlement.name}}</h2></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <dl>
+          <dt><b>Settlement Name:</b></dt>
+          <dd>{{settlement.name}}</dd>
+          <dt><b>Zip Code:</b></dt>
+          <dd>{{settlement.zipCode}}</dd>
+          <dt><b>Country:</b></dt>
+          <dd>{{settlement.country.name}}</dd>
+        </dl>
+      </mat-card-content>
+      <mat-card-actions>
+        <a mat-flat-button color="primary" [routerLink]="['/settlement-edit', settlement.settlementId]"><mat-icon>edit</mat-icon></a>
+        <a mat-flat-button color="warn" (click)="deleteSettlement(settlement.settlementId)"><mat-icon>delete</mat-icon></a>
+      </mat-card-actions>
+    </mat-card>
+  </div>

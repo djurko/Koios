@@ -1,0 +1,42 @@
+<!-- <p>settlement-edit works!</p> -->
+
+<div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" (click)="settlementDetails()"><mat-icon>info</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <form [formGroup]="settlementForm" (ngSubmit)="onFormSubmit(settlementForm.value)">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Settlement Name" formControlName="name"
+                 [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!settlementForm.get('name').valid && settlementForm.get('name').touched">Please enter Settlement Name</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Settlement Zip Code" formControlName="zipCode"
+                 [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!settlementForm.get('zipCode').valid && settlementForm.get('zipCode').touched">Please enter Settlement Zip Code</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <select matNativeControl formControlName="countryId">
+            <option *ngFor="let country of countries" [ngValue]="country.countryId">
+              {{ country.name }}
+            </option>
+          </select>
+          <mat-error>
+            <span *ngIf="!settlementForm.get('countryId').valid && settlementForm.get('countryId').touched">Please choose a Country</span>
+          </mat-error>
+        </mat-form-field>
+        <div class="button-row">
+          <button type="submit" [disabled]="!settlementForm.valid" mat-flat-button color="primary"><mat-icon>save</mat-icon></button>
+        </div>
+      </form>
+    </mat-card>
+  </div>
