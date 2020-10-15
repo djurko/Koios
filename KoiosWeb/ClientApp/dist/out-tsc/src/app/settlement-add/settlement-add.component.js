@@ -1,4 +1,4 @@
-import * as tslib_1 from "tslib";
+import { __decorate } from "tslib";
 import { Component } from '@angular/core';
 import { Validators } from '@angular/forms';
 let SettlementAddComponent = class SettlementAddComponent {
@@ -39,7 +39,7 @@ let SettlementAddComponent = class SettlementAddComponent {
         });
     }
 };
-SettlementAddComponent = tslib_1.__decorate([
+SettlementAddComponent = __decorate([
     Component({
         selector: 'app-settlement-add',
         templateUrl: './settlement-add.component.html',

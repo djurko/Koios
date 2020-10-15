@@ -12,8 +12,9 @@ namespace KoiosWeb.Controllers
     {
         private readonly SettlementService _settlementService;
 
-        public SettlementsController()
+        public SettlementsController(SettlementService service)
         {
+            //_settlementService = service;
             _settlementService = new SettlementService();
         }
 
@@ -31,7 +32,7 @@ namespace KoiosWeb.Controllers
         }
 
         // GET: api/Settlements/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetSettlement")]
         public Settlement Get(int id)
         {
             return _settlementService.GetById(id);

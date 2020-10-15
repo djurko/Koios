@@ -1,4 +1,4 @@
-import * as tslib_1 from "tslib";
+import { __decorate } from "tslib";
 import { Injectable } from '@angular/core';
 import { of } from 'rxjs';
 import { HttpHeaders } from '@angular/common/http';
@@ -48,7 +48,7 @@ let ApiService = class ApiService {
         return this.http.get(url).pipe(tap(_ => console.log('fetched number of settlements')), catchError(this.handleError('updateSettlement')));
     }
 };
-ApiService = tslib_1.__decorate([
+ApiService = __decorate([
     Injectable({
         providedIn: 'root'
     })

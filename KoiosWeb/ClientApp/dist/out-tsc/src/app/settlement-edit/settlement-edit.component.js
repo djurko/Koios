@@ -1,4 +1,4 @@
-import * as tslib_1 from "tslib";
+import { __decorate } from "tslib";
 import { Component } from '@angular/core';
 import { Validators } from '@angular/forms';
 let SettlementEditComponent = class SettlementEditComponent {
@@ -53,7 +53,7 @@ let SettlementEditComponent = class SettlementEditComponent {
         this.router.navigate(['/settlement-details', this.settlementId]);
     }
 };
-SettlementEditComponent = tslib_1.__decorate([
+SettlementEditComponent = __decorate([
     Component({
         selector: 'app-settlement-edit',
         templateUrl: './settlement-edit.component.html',

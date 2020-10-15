@@ -10,3 +10,15 @@ C:\Users\ezjurdo\Desktop\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.Ass
 C:\Users\ezjurdo\Desktop\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.csproj.CopyComplete
 C:\Users\ezjurdo\Desktop\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.dll
 C:\Users\ezjurdo\Desktop\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.pdb
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\bin\Debug\netcoreapp2.1\KoiosLogic.deps.json
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\bin\Debug\netcoreapp2.1\KoiosLogic.dll
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\bin\Debug\netcoreapp2.1\KoiosLogic.pdb
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\bin\Debug\netcoreapp2.1\KoiosDAL.dll
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\bin\Debug\netcoreapp2.1\KoiosDAL.pdb
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.csprojAssemblyReference.cache
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.AssemblyInfoInputs.cache
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.AssemblyInfo.cs
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.csproj.CoreCompileInputs.cache
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.csproj.CopyComplete
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.dll
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosLogic\obj\Debug\netcoreapp2.1\KoiosLogic.pdb

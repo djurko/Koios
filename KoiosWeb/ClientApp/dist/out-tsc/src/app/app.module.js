@@ -1,4 +1,4 @@
-import * as tslib_1 from "tslib";
+import { __decorate } from "tslib";
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -13,7 +13,7 @@ import { SettlementEditComponent } from './settlement-edit/settlement-edit.compo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 let AppModule = class AppModule {
 };
-AppModule = tslib_1.__decorate([
+AppModule = __decorate([
     NgModule({
         declarations: [
             AppComponent,

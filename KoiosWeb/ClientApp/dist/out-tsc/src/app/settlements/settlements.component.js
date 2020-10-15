@@ -1,4 +1,4 @@
-import * as tslib_1 from "tslib";
+import { __decorate } from "tslib";
 import { Component } from '@angular/core';
 let SettlementsComponent = class SettlementsComponent {
     constructor(api, route) {
@@ -40,7 +40,7 @@ let SettlementsComponent = class SettlementsComponent {
         });
     }
 };
-SettlementsComponent = tslib_1.__decorate([
+SettlementsComponent = __decorate([
     Component({
         selector: 'app-settlements',
         templateUrl: './settlements.component.html',

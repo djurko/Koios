@@ -7,3 +7,12 @@ C:\Users\ezjurdo\Desktop\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.Assembl
 C:\Users\ezjurdo\Desktop\Koios\KoiosDAL\bin\Debug\netcoreapp2.1\KoiosDAL.pdb
 C:\Users\ezjurdo\Desktop\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.dll
 C:\Users\ezjurdo\Desktop\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.pdb
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\bin\Debug\netcoreapp2.1\KoiosDAL.deps.json
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\bin\Debug\netcoreapp2.1\KoiosDAL.dll
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\bin\Debug\netcoreapp2.1\KoiosDAL.pdb
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.AssemblyInfoInputs.cache
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.AssemblyInfo.cs
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.csproj.CoreCompileInputs.cache
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.dll
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.pdb
+C:\Users\djurkovic\Desktop\Koios\Koios\KoiosDAL\obj\Debug\netcoreapp2.1\KoiosDAL.csprojAssemblyReference.cache

@@ -10,10 +10,11 @@ namespace KoiosWeb.Controllers
     [ApiController]
     public class CountriesController : ControllerBase
     {
-        private readonly IService<Country> _countryService;
+        private readonly CountryService _countryService;
 
-        public CountriesController()
+        public CountriesController(CountryService service)
         {
+            //_countryService = service;
             _countryService = new CountryService();
         }
 
@@ -24,32 +25,32 @@ namespace KoiosWeb.Controllers
             return _countryService.GetAll();
         }
 
-        //// GET: api/Countries/5
-        //[HttpGet("{id}", Name = "Get")]
-        //public Country Get(int id)
-        //{
-        //    return _CountryService.GetById(id);
-        //}
+        // GET: api/Countries/5
+        [HttpGet("{id}", Name = "GetCountry")]
+        public Country Get(int id)
+        {
+            return _countryService.GetById(id);
+        }
 
-        //// POST: api/Countries
-        //[HttpPost]
-        //public void Post([FromBody] Country Country)
-        //{
-        //    _CountryService.Create(Country);
-        //}
+        // POST: api/Countries
+        [HttpPost]
+        public void Post([FromBody] Country Country)
+        {
+            _countryService.Create(Country);
+        }
 
-        //// PUT: api/Countries/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] Country Country)
-        //{
-        //    _CountryService.Update(id, Country);
-        //}
+        // PUT: api/Countries/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] Country Country)
+        {
+            _countryService.Update(id, Country);
+        }
 
-        //// DELETE: api/Countries/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //    _CountryService.Delete(id);
-        //}
+        // DELETE: api/Countries/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            _countryService.Delete(id);
+        }
     }
 }
